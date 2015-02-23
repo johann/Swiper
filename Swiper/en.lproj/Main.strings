@@ -1,0 +1,15 @@
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "2pz-XF-uhl"; */
+"2pz-XF-uhl.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "DD9-Hw-hYR"; */
+"DD9-Hw-hYR.text" = "Detail";
+
+/* Class = "IBUIBarButtonItem"; title = "Menu"; ObjectID = "YZO-yo-kMj"; */
+"YZO-yo-kMj.title" = "Menu";
+
+/* Class = "IBUITableViewController"; title = "Master"; ObjectID = "pGg-6v-bdr"; */
+"pGg-6v-bdr.title" = "Master";
+
+/* Class = "IBUINavigationItem"; title = "Swiper"; ObjectID = "tQt-TN-PWz"; */
+"tQt-TN-PWz.title" = "Swiper";

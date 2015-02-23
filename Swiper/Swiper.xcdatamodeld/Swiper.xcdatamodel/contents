@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Card" representedClassName="Card" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" defaultDateTimeInterval="432761791" defaultValueString="2014-09-18 19:36:31 +0000" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="String" defaultValueString="6032550002771924" syncable="YES"/>
+        <attribute name="pass" optional="YES" attributeType="String" defaultValueString="A12345" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Card" positionX="279" positionY="216" width="128" height="90"/>
+    </elements>
+</model>

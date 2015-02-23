@@ -1,0 +1,1 @@
+NSData *preparseLabel(NSData *data);
