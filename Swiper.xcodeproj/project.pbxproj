@@ -560,6 +560,8 @@
 		8FA486F019ABB65800E20D10 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FA486EF19ABB65800E20D10 /* Entitlements.plist */; };
 		8FA496B219E277FF00CE0962 /* EMVTLV.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA496B119E277FF00CE0962 /* EMVTLV.m */; };
 		8FA496B419E2799600CE0962 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA496B319E2799600CE0962 /* AVFoundation.framework */; };
+		8FAB51681BEBC6710005EA4A /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAB51661BEBC6710005EA4A /* libAFNetworking.a */; };
+		8FAB51691BEBC6710005EA4A /* libTWMessageBarManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAB51671BEBC6710005EA4A /* libTWMessageBarManager.a */; };
 		8FACA77419C9F81B0037B260 /* icon-error.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FACA76E19C9F81B0037B260 /* icon-error.png */; };
 		8FACA77519C9F81B0037B260 /* icon-error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FACA76F19C9F81B0037B260 /* icon-error@2x.png */; };
 		8FACA77619C9F81B0037B260 /* icon-info.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FACA77019C9F81B0037B260 /* icon-info.png */; };
@@ -582,6 +584,8 @@
 
 /* Begin PBXFileReference section */
 		10F4D4DF5DDE4E5385B08958 /* libPods-Swiper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Swiper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2938B9A0F0886C37DFCFC33E /* Pods-Swiper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swiper/Pods-Swiper.release.xcconfig"; sourceTree = "<group>"; };
+		64CC6F3DB34606941416D0B7 /* Pods-Swiper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swiper/Pods-Swiper.debug.xcconfig"; sourceTree = "<group>"; };
 		8F5FB1FB19C87DCD00326764 /* glyphicons_000_glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_000_glass.png; sourceTree = "<group>"; };
 		8F5FB1FC19C87DCD00326764 /* glyphicons_001_leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_001_leaf.png; sourceTree = "<group>"; };
 		8F5FB1FD19C87DCD00326764 /* glyphicons_002_dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_002_dog.png; sourceTree = "<group>"; };
@@ -1175,6 +1179,8 @@
 		8FA496B019E277FF00CE0962 /* EMVTLV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMVTLV.h; sourceTree = "<group>"; };
 		8FA496B119E277FF00CE0962 /* EMVTLV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMVTLV.m; sourceTree = "<group>"; };
 		8FA496B319E2799600CE0962 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8FAB51661BEBC6710005EA4A /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/libAFNetworking.a"; sourceTree = "<group>"; };
+		8FAB51671BEBC6710005EA4A /* libTWMessageBarManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTWMessageBarManager.a; path = "Pods/../build/Debug-iphoneos/libTWMessageBarManager.a"; sourceTree = "<group>"; };
 		8FACA76E19C9F81B0037B260 /* icon-error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-error.png"; sourceTree = "<group>"; };
 		8FACA76F19C9F81B0037B260 /* icon-error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-error@2x.png"; sourceTree = "<group>"; };
 		8FACA77019C9F81B0037B260 /* icon-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-info.png"; sourceTree = "<group>"; };
@@ -1186,7 +1192,6 @@
 		8FF264B519D35E6B00CF7496 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
 		8FF264B619D35E6B00CF7496 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
 		8FF264B719D35E6B00CF7496 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D69997FB11D1463381197C8C /* Pods-Swiper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiper.xcconfig"; path = "Pods/Pods-Swiper.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1194,6 +1199,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FAB51681BEBC6710005EA4A /* libAFNetworking.a in Frameworks */,
+				8FAB51691BEBC6710005EA4A /* libTWMessageBarManager.a in Frameworks */,
 				8FA496B419E2799600CE0962 /* AVFoundation.framework in Frameworks */,
 				8FACA78319CB2AAA0037B260 /* MessageUI.framework in Frameworks */,
 				8FA4868D19AB7DF400E20D10 /* ExternalAccessory.framework in Frameworks */,
@@ -1234,6 +1241,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0464B68797B7647DD0E69637 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64CC6F3DB34606941416D0B7 /* Pods-Swiper.debug.xcconfig */,
+				2938B9A0F0886C37DFCFC33E /* Pods-Swiper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8F5FB1F919C87DCD00326764 /* glyphicons */ = {
 			isa = PBXGroup;
 			children = (
@@ -1764,7 +1780,7 @@
 				8FA4865A19AB758C00E20D10 /* SwiperTests */,
 				8FA4862B19AB758B00E20D10 /* Frameworks */,
 				8FA4862A19AB758B00E20D10 /* Products */,
-				D69997FB11D1463381197C8C /* Pods-Swiper.xcconfig */,
+				0464B68797B7647DD0E69637 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1780,6 +1796,8 @@
 		8FA4862B19AB758B00E20D10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8FAB51661BEBC6710005EA4A /* libAFNetworking.a */,
+				8FAB51671BEBC6710005EA4A /* libTWMessageBarManager.a */,
 				8FA496B319E2799600CE0962 /* AVFoundation.framework */,
 				8FACA78219CB2AAA0037B260 /* MessageUI.framework */,
 				8FA4868C19AB7DF400E20D10 /* ExternalAccessory.framework */,
@@ -1970,6 +1988,7 @@
 				8FA4862619AB758B00E20D10 /* Frameworks */,
 				8FA4862719AB758B00E20D10 /* Resources */,
 				61832FF1487744AD9D0FFCB4 /* Copy Pods Resources */,
+				393655FCA217B16DFF64AFF5 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2581,6 +2600,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		393655FCA217B16DFF64AFF5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swiper/Pods-Swiper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		61832FF1487744AD9D0FFCB4 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2593,7 +2627,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-Swiper-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swiper/Pods-Swiper-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F015EFB98F354E3A9D1F7D51 /* Check Pods Manifest.lock */ = {
@@ -2749,7 +2783,7 @@
 		};
 		8FA4866519AB758C00E20D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D69997FB11D1463381197C8C /* Pods-Swiper.xcconfig */;
+			baseConfigurationReference = 64CC6F3DB34606941416D0B7 /* Pods-Swiper.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2757,6 +2791,7 @@
 				CODE_SIGN_ENTITLEMENTS = Swiper/Swiper.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -2769,6 +2804,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Swiper/Library",
 					"$(PROJECT_DIR)/Swiper/Kontakt",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -2788,7 +2824,7 @@
 		};
 		8FA4866619AB758C00E20D10 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D69997FB11D1463381197C8C /* Pods-Swiper.xcconfig */;
+			baseConfigurationReference = 2938B9A0F0886C37DFCFC33E /* Pods-Swiper.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2796,6 +2832,7 @@
 				CODE_SIGN_ENTITLEMENTS = Swiper/Swiper.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -2808,6 +2845,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Swiper/Library",
 					"$(PROJECT_DIR)/Swiper/Kontakt",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				OTHER_LDFLAGS = (
 					"-framework",
